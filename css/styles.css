@@ -86,3 +86,58 @@ nav button:hover{
     background: black;
     
 }
+
+/* landing page */
+
+.landing{
+    background-image: url(../images/landing\ page.webp);
+    margin-top:8em ;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position: bottom;
+    
+}
+.landing-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.landing_box_1{
+    border: 2px solid black;
+    line-height: 1.5;
+}
+.landing_box_1 > h2{
+    font-size: 50px;
+    margin-bottom: .5em;
+}
+.landing_box_1 >p{
+    font-size: 20px;
+    margin-bottom: 2em;
+}
+.landing_box_1 button{
+    padding: .8em 1.5em;
+    background: black;
+    color:white;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    margin-bottom: 3em;
+}
+.landing_box_1 button:hover{
+    color: black;
+    background: #b68a1b;
+    
+}
+
+.q{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 2em;
+}
+.box_1{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.landing_box_2{
+    border: 2px solid black;
+}
