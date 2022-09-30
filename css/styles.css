@@ -16,4 +16,73 @@ li{
 }
 body{
     min-height: 100vh;
+    font-size: 15px;
+    font-family: monospace;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1300px;
+}
+
+/* header styles */
+header{
+    border: 1px solid black;
+    padding: 1em 0;
+}
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items:  center;
+}
+.logo_container{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    align-items: center;
+}
+.logo_text > h1{
+    font-size: 22px;
+    font-weight: 700;
+}
+.logo_text > p{
+    font-size: 14px;
+    font-weight: 400;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav li{
+    padding-left:  2em;
+}
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+.login:hover{
+    color: #6e6e6e;
+}
+nav a{
+    color: black;
+    font-size: 16px;
+}
+nav a:hover{
+    color: #6e6e6e;
+}
+nav button{
+    padding: .8em 1.5em;
+    background: #ffbf23;
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+   
+}
+nav button:hover{
+    color: #ffbf23;
+    background: black;
+    
 }
