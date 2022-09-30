@@ -26,7 +26,7 @@ body{
 
 /* header styles */
 header{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 1em 0;
 }
 .header_container{
@@ -100,14 +100,18 @@ nav button:hover{
 .landing-box{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .landing_box_1{
-    border: 2px solid black;
-    line-height: 1.5;
+    /* border: 2px solid black; */
+    line-height: 1.3;
+    /* padding-top: 2em; */
 }
 .landing_box_1 > h2{
     font-size: 50px;
-    margin-bottom: .5em;
+    margin: .3em 0;
+    font-weight: lighter;
 }
 .landing_box_1 >p{
     font-size: 20px;
@@ -120,7 +124,7 @@ nav button:hover{
     font-size: 16px;
     font-weight: 700;
     border-radius: 10px;
-    margin-bottom: 3em;
+    margin-bottom: 1em;
 }
 .landing_box_1 button:hover{
     color: black;
@@ -139,5 +143,30 @@ nav button:hover{
     gap: 1em;
 }
 .landing_box_2{
-    border: 2px solid black;
+    /* border: 2px solid black; */
+}
+
+/* nextsection */
+.with{
+    background: #ffbf23;
+    margin: 5em 0;
+}
+.with-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    line-height: 1.5;
+    padding: 2em 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+.with-box >h2{
+    font-size: 38px;
+    line-height: 1.5;
+}
+.with-box > div{
+    /* border: 1px solid black; */
+    text-align: justify;
+    padding: 3em 0;
+    margin: 1em 0;
 }
