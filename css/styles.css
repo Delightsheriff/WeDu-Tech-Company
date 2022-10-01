@@ -3,10 +3,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+    
 }
 img{
     max-width: 100%;
     display: block;
+    
 }
 a{
     text-decoration: none;
@@ -142,9 +145,9 @@ nav button:hover{
     align-items: center;
     gap: 1em;
 }
-.landing_box_2{
-    /* border: 2px solid black; */
-}
+/* .landing_box_2{
+    border: 2px solid black;
+} */
 
 /* nextsection */
 .with{
@@ -155,13 +158,15 @@ nav button:hover{
     display: grid;
     grid-template-columns: 1fr 1fr;
     line-height: 1.5;
-    padding: 2em 0;
+    padding: 4em 0;
     max-width: 1200px;
     margin: 0 auto;
     font-size: 16px;
+    
 }
-.with-box >h2{
+.with-box h2{
     font-size: 38px;
+    font-weight: bold;
     line-height: 1.5;
 }
 .with-box > div{
@@ -169,4 +174,9 @@ nav button:hover{
     text-align: justify;
     padding: 3em 0;
     margin: 1em 0;
+}
+
+/* what we offer */
+.offer-box{
+    border: 1px solid black;
 }
