@@ -178,5 +178,47 @@ nav button:hover{
 
 /* what we offer */
 .offer-box{
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.offer-text{
+    margin: 3em 0;
+    line-height: 1.5;
+    font-size: 16px;
+}
+.offer-text h2{
+    font-size: 38px;
+    /* font-weight: 700; */
+}
+.offer-grid{
+    display: grid;
+    gap: 1em;
+    grid-template-columns: repeat(4, 2fr);
+    margin: 3em 0;
+}
+.offer-grid img{
+    border: 3px solid black;
+    border-radius: 15px;
+    width: 90%;
+    height: auto;
+    object-fit: cover;
+    object-position: 50% 50%;
+    
+}
+.offer-grid h3{
+    font-size: 22px;
+    /* font-weight: lighter; */
+    margin-top: 2em;
+    line-height: 1.5;
+}
+.offer-grid p{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 1em;
+}
+.offer-gridbox{
+    /* border: 1px solid rebeccapurple; */
+    width: 100%;
+    text-align: left;
 }
