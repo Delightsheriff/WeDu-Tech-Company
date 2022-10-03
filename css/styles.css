@@ -140,6 +140,10 @@ nav button:hover{
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 2em;
 }
+.qbox{
+    justify-content: space-between;
+    display: flex;
+}
 .box_1{
     display: flex;
     align-items: center;
@@ -227,10 +231,15 @@ nav button:hover{
 .cont-items{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    /* margin: 5em 0em; */
+  
 }
+
 .cont{
     position: relative;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    /* margin: 2em 0; */
+    /* margin-top: 2em; */
     padding: 5em 0;
 }
 .one{
@@ -258,5 +267,19 @@ nav button:hover{
 }
 .cont-text{
     border: 2px solid black;
-    padding: 8em ;
+    padding: 7em  5em;
+}
+.cont-text h2{
+    font-size: 38px;
+    font-weight: lighter;
+    padding: 1em 0;
+}
+.cont-text > p{
+    font-size: 16px;
+    line-height: 1.5;
+    padding-bottom: 1em;
+}
+.qbox  p{
+    font-size: 14px;
+    line-height: 1.2;
 }
